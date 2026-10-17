@@ -61,7 +61,7 @@ const rows=`
 张顺飞|抽象名场面|起飞发动机|这波，直接起飞。|#c8c3aa|air|顺风拳,飞天踢|顺势冲锋/dash|原地起飞/upper|落地有声/slam|一路顺风/dash
 长崎素世|乐队现场|低音牵引|这一切，都是为了乐队。|#d1af87|counter|低弦击,贝斯重音|低音牵引/projectile|温柔束缚/trap|一切为了乐队/counter|过去的回响/beam
 仲町阿拉蕾|乐队现场|梦无限主唱|把梦想，大声唱出来！|#f2c168|charge|元气掌,梦色踢|梦色歌声/projectile|舞台冲刺/dash|勇气高音/upper|梦想无限大/beam
-孙桐|抽象名场面|抽象新星|这波，我上我也行。|#9ad0c2|rush|G氏快拳，ay式回旋踢|抽象突进/dash|灵光一闪/projectile|稳中带皮/counter|孙桐风暴/barrage
+孙桐|抽象名场面|抽象新星|这波，我上我也行。|#9ad0c2|rush|G氏快拳,ay式回旋踢|抽象突进/dash|灵光一闪/projectile|稳中带皮/counter|孙桐风暴/barrage
 老秦|抽象名场面|稳重老哥|别急，让我先想想。|#c9b99a|armor|老秦推掌,沉稳重击|秦式冲撞/dash|冷静反制/counter|厚重震地/slam|老秦的觉悟/beam
 `.trim().split('\n');
 const passive={rush:['追击节奏','每第 3 次命中额外获得 14 气'],armor:['硬派身躯','受到的伤害降低 10%'],flow:['流畅演出','专属技能冷却缩短 12%'],charge:['热场体质','自然回气速度提高 50%'],leech:['甜味补给','专属技能首次命中回复 9 生命'],counter:['从容应对','格挡成功额外获得 4 气'],focus:['远距专注','飞行道具速度提高 15%'],air:['轻盈脚步','跳跃高度提升，移动速度加快']};
