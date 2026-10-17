@@ -35,6 +35,10 @@ window.ANIMATIONS={"0":{"name":"七海","key":null,"sheets":{"base":"raster/d42d
       "heavy": [
         {"x":0,"y":0,"w":300,"h":400,"pivotX":150,"pivotY":390,"bodyHeight":280,"sheet":"heavy1","referenceHeight":400},
         {"x":0,"y":0,"w":300,"h":400,"pivotX":150,"pivotY":390,"bodyHeight":280,"sheet":"heavy2","referenceHeight":400}
+      ],
+      "super": [
+        {"x":0,"y":0,"w":300,"h":400,"pivotX":150,"pivotY":390,"bodyHeight":280,"sheet":"heavy1","referenceHeight":400},
+        {"x":0,"y":0,"w":300,"h":400,"pivotX":150,"pivotY":390,"bodyHeight":280,"sheet":"heavy2","referenceHeight":400}
       ]
     },
     "impact": {"light":2,"heavy":2,"skill1":2,"skill2":2,"skill3":2,"super":2},
@@ -76,6 +80,10 @@ window.ANIMATIONS={"0":{"name":"七海","key":null,"sheets":{"base":"raster/d42d
         {"x":0,"y":0,"w":300,"h":400,"pivotX":150,"pivotY":390,"bodyHeight":280,"sheet":"light2","referenceHeight":400}
       ],
       "heavy": [
+        {"x":0,"y":0,"w":300,"h":400,"pivotX":150,"pivotY":390,"bodyHeight":280,"sheet":"heavy1","referenceHeight":400},
+        {"x":0,"y":0,"w":300,"h":400,"pivotX":150,"pivotY":390,"bodyHeight":280,"sheet":"heavy2","referenceHeight":400}
+      ],
+      "super": [
         {"x":0,"y":0,"w":300,"h":400,"pivotX":150,"pivotY":390,"bodyHeight":280,"sheet":"heavy1","referenceHeight":400},
         {"x":0,"y":0,"w":300,"h":400,"pivotX":150,"pivotY":390,"bodyHeight":280,"sheet":"heavy2","referenceHeight":400}
       ]
