@@ -129,7 +129,20 @@ const cast={
  D('珍藏小石头','throw','stone','抛出小石头，弹地一次',{bounce:1,size:48}),D('企鹅创可贴','buff','bandage','贴上创可贴，回复生命和少量气',{heal:42,energy:12,buffTime:4}),D('企鹅朋友','summon','clone','召唤高松灯企鹅向前跑来',{summonId:63,size:150}),D('诗超绊','beam','note','展开笔记，用诗歌声浪连起整个舞台')]],
 '高松灯企鹅':['企鹅诗人','咕嘎，一辈子。',[
  D('企鹅小石头','throw','stone','小石头以低弧线弹向前方',{bounce:2,size:48}),D('肚皮溜冰','dash','ice','压低企鹅身形快速滑行'),D('企鹅创可贴','buff','bandage','恢复生命并回气',{heal:42,energy:12,buffTime:4}),D('企鹅诗超绊','barrage','stone','诗歌音符与珍藏石头交替射出',{count:6,damage:33,sequence:['stone','note'],size:65})]],
+'孙桐':['抽象新星','这波，我上我也行！',[
+ D('抽象飞弹','projectile','crescent','扔出一个抽象能量球',{count:2,damage:24}),
+ D('孙桐突进','dash','crescent','向前猛烈突进',{damage:45}),
+ D('稳中带皮','counter','crescent','短暂守势，反击近敌'),
+ D('孙桐风暴','barrage','crescent','连续打出抽象风暴',{count:6,damage:35})
+]],
+'老秦':['稳重老哥','别急，让我先想想。',[
+ D('老秦推掌','throw','crescent','推出一掌',{size:70}),
+ D('秦式冲撞','dash','crescent','向前冲撞击退'),
+ D('冷静反制','counter','crescent','冷静防守并反击'),
+ D('老秦的觉悟','beam','crescent','全屏光束贯穿')
+]],
 };
+
 const templates={
  throw:{damage:43,range:900,start:.24,duration:.58,cd:3.5},
  summon:{damage:57,range:900,start:.32,duration:.7,cd:6.2},
