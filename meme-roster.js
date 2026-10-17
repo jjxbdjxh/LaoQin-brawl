@@ -153,7 +153,12 @@ const templates={
 };
 Object.assign(window.FIGHTER_TYPES,templates);
 for(const c of ROSTER){
- const data=cast[c.name];if(!data)throw Error('缺少梗技能：'+c.name);
+ // 暴力兜底：防止名字有隐藏空格或打错
+ let data = cast[c.name];
+ if (!data && c.name.includes('孙桐')) data = cast['孙桐'];
+ if (!data && c.name.includes('老秦')) data = cast['老秦'];
+ 
+ if(!data)throw Error('缺少梗技能：'+c.name);
  c.title=data[0];c.quote=data[1];c.memeVersion=2;
  c.skills=c.skills.slice(0,2).concat(data[2].map((s,j)=>{
   const i=j+2,superMove=i===5,t={...window.FIGHTER_TYPES[s.type],type:s.type,...s,key:['U','I','O','L'][j],super:superMove};
